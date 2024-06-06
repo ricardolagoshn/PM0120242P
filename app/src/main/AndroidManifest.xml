@@ -13,24 +13,23 @@
         android:theme="@style/Theme.PM0120242P"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityCombo"
+            android:exported="false" />
+        <activity
             android:name=".ActivityList"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".ActivityInit"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
