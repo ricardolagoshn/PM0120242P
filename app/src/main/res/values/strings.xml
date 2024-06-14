@@ -5,4 +5,8 @@
     <string name="Formulario">Formulario de ingreso</string>
     <string name="IngresoEdad">Ingrese su edad</string>
     <string name="IngresoCorreo">Ingrese su correo</string>
+    <string name="TomarFoto">Tomar Foto</string>
+
+
+
 </resources>
